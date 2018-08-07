@@ -40,7 +40,7 @@ label,
 }
 
 input,
-.allMessages>p {
+#allMessages>p {
     font-family: 'Gudea', sans-serif;
 }
 
@@ -50,7 +50,7 @@ h1 {
     text-align: center;
 }
 
-.allMessages {
+#allMessages {
     flex: 1;
     margin-top: 15px;
     width: calc(60% + var(--addedPadding)*2);
@@ -66,7 +66,7 @@ h1 {
     grid-gap: 5px;
 }
 
-.allMessages>p {
+#allMessages>p {
     text-indent: -2em;
     margin-left: 2em;
 }
